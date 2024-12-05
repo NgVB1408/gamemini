@@ -1,17 +1,17 @@
 {
   "name": "minigame",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bot/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "axios": "^1.7.9",
-    "body-parser": "^1.20.3",
-    "express": "^4.21.1"
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "axios": "^0.21.1"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
   }
 }
