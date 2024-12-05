@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const webhook = require('./bot/webhook');
+const webhook = require('./webhook');
 const leaderboard = require('./bot/routes/leaderboard');
 const game = require('./bot/routes/game');
 
